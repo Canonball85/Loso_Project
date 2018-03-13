@@ -25,6 +25,10 @@ P {
   -webkit-background-size: cover;
 }
 
+.header-iphone img {
+  width: 100%;
+}
+
 .header-overlay {
   background-color: rgba(31, 31, 31, 0.75);
 }
