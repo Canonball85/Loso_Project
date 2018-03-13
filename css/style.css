@@ -137,7 +137,7 @@ P {
   #fff;
 }
 
-.btn-tour -i {
+.btn-tour i {
   font-size: 20px;
   padding-left: 5px;
   color: #129CF3;
@@ -161,7 +161,7 @@ P {
   position: relative;
 }
 
-.choose-us-title h2:after {
+.choose-us-title h2::after {
   content: "";
   position: absolute;
   bottom: -12px;
@@ -189,7 +189,7 @@ P {
   left: 0;
 }
 
-.choose-us-item div i {
+.choose-us-item div {
   font-size: 55px;
   color: #129CF3;
   transition: all 1s;
