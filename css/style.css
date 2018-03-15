@@ -48,6 +48,55 @@ P {
   margin-top: 45px;
 }
 
+/* ======== Navigation ======== */
+.navbar-default {
+  background-color: transparent;
+  border-color: #444;
+  z-index: 110;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #B5B5B5;
+  font-family: "Raleway", sans-serif;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #129CF3;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+  color: #B5B5B5;
+}
+
+.navbar-brand {
+  padding: 9px 15px;
+}
+
+.navbar-brand img {
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.navbar-default .navbar-nav > .active>a,
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+  background-color: transparent;
+  color: #129CF3;
+}
+
+
+
+
 /* ======== HEADER ======== */
 .header {
   background-image: url("../img/header-bg.jpg");
@@ -137,7 +186,7 @@ P {
   #fff;
 }
 
-.btn-tour i {
+.btn-tour svg {
   font-size: 20px;
   padding-left: 5px;
   color: #129CF3;
@@ -472,19 +521,19 @@ P {
     background-color: #121212;
 }
 
-.available-on-item i {
+.available-on-item svg {
     color: #129CF3;
     text-align: center;
     opacity: 1;
     font-size: 40px;
-    padding-top: 90px;
+    margin-top: 90px;
     transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
     -webkit-transition: all 1s;
 }
 
-.available-on-item:hover i {
+.available-on-item:hover svg {
     opacity: 0;
 }
 
@@ -599,7 +648,7 @@ P {
   color: #fff;
 }
 
-.social-icons ul li a i {
+.social-icons ul li a svg {
   font-size: 20px;
 }
 
@@ -636,7 +685,7 @@ P {
   padding: 25px;
 }
 
-.scroll-top a i {
+.scroll-top a svg {
   color: #fff;
   font-size: 25px;
 }
